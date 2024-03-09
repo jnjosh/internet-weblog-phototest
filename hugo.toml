@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "internet-weblog"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[[menu.main]]
+	name = "Photos"
+	weight = 1
+	identifier = "photos"
+	url = "/photos/"
